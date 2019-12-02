@@ -1,7 +1,7 @@
 from Crypto.Cipher import AES
 from Crypto.Util import Padding
 from base64 import b64encode, b64decode
-from dotenv import load_dotenvs
+from dotenv import load_dotenv
 import os
 
 load_dotenv()
